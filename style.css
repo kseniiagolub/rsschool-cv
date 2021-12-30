@@ -197,11 +197,11 @@ footer {
 .footer {
     display: flex;
     justify-content: space-around;
-    font-size: large;
     padding: 10px;
+    width: 100%;
 }
 
-.footer > p {
+.footer > h2 {
     flex-grow: 1;
     color: black;
 }
@@ -220,7 +220,7 @@ footer {
 }
 
 .footer img {
-    height: 30px;
+    height: 40px;
     border-radius: 8px;
     transition: .3s;
 }
