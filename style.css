@@ -6,7 +6,7 @@
 
 body {
     background-color: whitesmoke;
-    min-height: 100vh;
+    min-height: 80vh;
     margin: 0;
     padding: 0;
     display: flex;
@@ -16,6 +16,7 @@ body {
 
 .page {
     background-color: #679ED2;
+    min-height: 80vh;
 }
 
 #photo img {
@@ -197,11 +198,11 @@ footer {
 .footer {
     display: flex;
     justify-content: space-around;
-    font-size: large;
     padding: 10px;
+    width: 100%;
 }
 
-.footer > p {
+.footer > h2 {
     flex-grow: 1;
     color: black;
 }
@@ -220,7 +221,7 @@ footer {
 }
 
 .footer img {
-    height: 30px;
+    height: 40px;
     border-radius: 8px;
     transition: .3s;
 }
