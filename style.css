@@ -14,6 +14,11 @@ body {
     justify-content: space-between;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .page {
     background-color: #679ED2;
     min-height: 80vh;
