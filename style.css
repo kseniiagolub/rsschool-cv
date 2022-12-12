@@ -1,0 +1,255 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+    min-height: 80vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.page {
+    background-color: #679ED2;
+    min-height: 80vh;
+}
+
+#photo img {
+    height: 90%;
+    border-radius: 50%;
+    border: 2px solid #0C5AA6;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    padding: 10px 0px 5px 0px;
+}
+
+.title {
+    font-weight: bolder;
+    margin: auto 0;
+}
+
+.title h1 {
+    font-weight: bolder;
+}
+
+.title h2 {
+    color: #04396C;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.contacts p a {
+    color: #04396C;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.contacts p:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contacts p img {
+    height: 15px;
+    margin: 5px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+main h3 {
+    color: #04396C;
+    font-weight: 500;
+}
+
+.card {
+    margin: 3px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    transition: .3s;
+}
+
+.card:hover {
+    box-shadow: 1px 1px #04396C,
+    2px 2px #04396C,
+    3px 3px #04396C,
+    4px 4px #04396C,
+    5px 5px #04396C,
+    6px 6px #04396C,
+    7px 7px #04396C;
+    -webkit-transform: translateX(-7px);
+    transform: translateX(-7px);
+}
+
+.card_title {
+    border-bottom: 2px solid #0C5AA6;
+    padding: 5px;
+}
+
+.card_title h3 img {
+    height: 25px;
+    margin: 10px;
+    padding-bottom: 2px;
+}
+
+.card_text {
+    padding: 2px;
+    text-indent: 1.5rem;
+    font-size: large;
+}
+
+.progress-bar {
+    background: #26527C;
+}
+
+.scale {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#img_game a img {
+    width: 90%;
+    border-radius: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 5px;
+}
+
+section {
+    display: flex;
+}
+
+.about {
+    width: 60%;
+    padding: 10px;
+}
+
+.skills {
+    width: 40%;
+    padding: 10px;
+}
+
+.code {
+    width: 50%;
+    font-size: large;
+}
+
+.code_main {
+    padding-top: 15px;
+}
+
+pre {
+    background: #679ED2;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.job {
+    width: 50%;
+}
+
+#img_game {
+    cursor: pointer;
+    display: flex;
+}
+
+#img_game div {
+    width: 50%;
+    margin: 5px;
+    padding-top: 15px;
+    font-size: larger;
+}
+
+.education {
+    width: 70%;
+    margin-bottom: 5px;
+}
+
+.lang {
+    width: 30%;
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #04396C;
+    height: 100px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    width: 100%;
+}
+
+.footer > h2 {
+    flex-grow: 1;
+    color: black;
+}
+
+#kseniia {
+    flex-grow: 3;
+}
+
+#kseniia a {
+    text-decoration: none;
+    color: black;
+}
+
+#kseniia a:hover {
+    font-weight: bold;
+}
+
+.footer img {
+    height: 40px;
+    border-radius: 8px;
+    transition: .3s;
+}
+
+.footer img:hover {
+    box-shadow: 1px 1px #679ED2,
+    2px 2px #679ED2,
+    3px 3px #679ED2,
+    4px 4px #679ED2,
+    5px 5px #679ED2,
+    6px 6px #679ED2,
+    7px 7px #679ED2;
+    -webkit-transform: translateX(-4px);
+    transform: translateX(-4px);
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+
+    section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

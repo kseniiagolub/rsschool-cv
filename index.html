@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kseniia Golub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@200&family=Quicksand:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container page">
+    <header class="container">
+        <div id="photo"><img src="img/main.jpg" alt="photo"></div>
+        <div class="title">
+            <h1>Kseniia&nbsp;Golub</h1>
+            <h2>Front-End&nbsp;Developer</h2>
+        </div>
+        <nav class="contacts">
+            <p><a href="mailto:golubkseniia47@gmail.com" target="_blank">golubkseniia47@gmail.com</a>
+                <img src="img/mail.png" alt="mail">
+            </p>
+            <p><a href="tel:+972&587506447" target="_blank">+972&#8209;587506447</a><img src="img/phone.png" alt="phone">
+            </p>
+            <p>Haifa,&nbsp;Israel<img src="img/geo.png" alt="geo"></p>
+            <p><a href="https://github.com/kseniiagolub" target="_blank">kseniiagolub</a><img src="img/github.png" alt="github"></p>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="first">
+            <div class="card about">
+                <div class="card_title">
+                    <h3><img src="img/me.png" alt="icon">About&nbsp;Me</h3>
+                </div>
+                <div class="card_text">
+                    <p>I have good interpersonal skills and I'm an excellent team worker.</p>
+                    <p>My goal is to learn everything new and exciting. I can(love) spend a lot of time doing what
+                        interests me. My core strengths are in problem solving and fast learning.</p>
+                    <p>I want to get knowledge and skills that will be enough for employment in a company.</p>
+                    <p>I love to code and coffee.</p>
+                </div>
+            </div>
+            <div class="card skills">
+                <div class="card_title">
+                    <h3><img src="img/skills.png" alt="icon">Skills</h3>
+                </div>
+                <div class="flex-container">
+                    <div>
+                        <label for="html">HTML:</label>
+                        <progress id="html" max="100" value="100"></progress>
+                    </div>
+                    <div>
+                        <label for="css">CSS:</label>
+                        <progress id="css" max="100" value="80"></progress>
+                    </div>
+                    <div>
+                        <label for="bootstrap">Bootstrap:</label>
+                        <progress id="bootstrap" max="100" value="60"></progress>
+                    </div>
+                    <div>
+                        <label for="js">JavaScript:</label>
+                        <progress id="js" max="100" value="80"></progress>
+                    </div>
+                    <div>
+                        <label for="c">C:</label>
+                        <progress id="c" max="100" value="40"></progress>
+                    </div>
+                    <div>
+                        <label for="java">Java:</label>
+                        <progress id="java" max="100" value="40"></progress>
+                    </div>
+                    <div>
+                        <label for="git">Git:</label>
+                        <progress id="git" max="100" value="50"></progress>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="second">
+            <div class="card code">
+                <div class="card_title">
+                    <h3><img src="img/code.png" alt="icon">Code</h3>
+                </div>
+                <div class="code_main">
+                    <pre><code>
+      let min = array.reduce(function (acc, item) {
+        if&nbsp;(acc&nbsp;&gt;&nbsp;item)
+            return&nbsp;item
+        else
+            return&nbsp;acc
+      });</code></pre>
+                </div>
+            </div>
+            <div class="card job">
+                <div class="card_title">
+                    <h3><img src="img/job.png" alt="icon">Experience</h3>
+                </div>
+                <div id="img_game">
+                    <div><a href="https://scratch.mit.edu/projects/601105572" target="_blank"><img src="img/game.png" alt="game"></a></div>
+                    <div><p>My project at CS50s course.</p></div>
+                </div>
+            </div>
+        </section>
+        <section class="third">
+            <div class="card education">
+                <div class="card_title">
+                    <h3><img src="img/education.png" alt="icon">Education</h3>
+                </div>
+                <div>
+                    <ul>
+                        <li>University: Ural State Pedagogical University, Master of Speech Therapy</li>
+                        <li>Courses:
+                            <ul>
+                                <li>Masa Israel Experience HI-Tech</li>
+                                <li>CS50</li>
+                                <li>HTML Academy</li>
+                                <li>Udemy</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card lang">
+                <div class="card_title">
+                    <h3><img src="img/lang.png" alt="icon">Languages</h3>
+                </div>
+                <div class="scale flex-container">
+                    <div>
+                        <label for="rus">Russian:</label>
+                        <progress id="rus" max="100" value="100"></progress>
+                    </div>
+                    <div>
+                        <label for="eng">English:</label>
+                        <progress id="eng" max="100" value="45"></progress>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+<footer class="container">
+    <section class="footer">
+        <h2>&copy;&nbsp;2022</h2>
+        <h2 id="kseniia"><a href="https://github.com/kseniiagolub" target="_blank">kseniiagolub</a></h2>
+        <a href="https://rs.school/js/" target="_blank"><img src="img/logo.png" alt="logo"></a>
+    </section>
+</footer>
+</body>
+</html>
